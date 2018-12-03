@@ -16,9 +16,7 @@ java -d32 -jar jarfile [args...]
 
 JVM内存并不是设置越大越好。太大会造成寻址计算和垃圾回收开销过大，太小资源又不够用。先讲一下JVM每个区的作用。
 
-![1543818665506](C:\Users\lemoncome\AppData\Roaming\Typora\typora-user-images\1543818665506.png)
-
-
+![TIM图片20181203213559](D:\dev\project\study-note\image\TIM图片20181203213559.png)
 
 可以从上图看到，JVM内存结构大分类上可以分为Non-Heap和Heap。
 
